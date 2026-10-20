@@ -106,3 +106,19 @@ These steps are instructions for you to run; nothing has been committed or uploa
    If Git asks who you are, set your name and email with `git config --global user.name "Your Name"` and `git config --global user.email "you@example.com"`, then retry the commit. Never put a password or access token in the repository.
 5. Refresh the GitHub repository page and confirm the `portfolio`, `ecommerce`, `layout-demo`, `react-components`, and `react-blog` folders plus this README are visible.
 6. Copy the repository page URL (without `.git`), open the Skill Nexis Week 1 submission form, paste that URL into the repository/project link field, complete any requested details, and submit. Keep the confirmation page or email for your records.
+
+## 🌐 Live Projects
+
+| Project | Description | Live Demo |
+|---|---|---|
+| Personal Portfolio | Responsive personal portfolio built with HTML, CSS and JavaScript | [View Portfolio](https://keerc156.github.io/skillnexis-week1/portfolio/) |
+| E-commerce Landing Page | E-commerce landing page built with HTML and CSS | [View Project](https://keerc156.github.io/skillnexis-week1/ecommerce/) |
+| Layout Demo | CSS Flexbox and Grid layout demonstration | [View Project](https://keerc156.github.io/skillnexis-week1/layout-demo/) |
+| React Components | Reusable React components with props and state | [View Project](https://keerc156.github.io/skillnexis-week1/react-components/) |
+| React Blog UI | React blog interface with search and filtering | [View Project](https://keerc156.github.io/skillnexis-week1/react-blog/) |
+
+**Note:** The portfolio link is published. The other demo links should be marked as live only after confirming that each one loads correctly.
+
+## 📂 Repository
+
+[View Source Code on GitHub](https://github.com/KEERC156/skillnexis-week1)
