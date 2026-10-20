@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive examples of CSS Flexbox and Grid layouts.">
+    <title>Layout Lab | Flexbox and Grid</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home">layout<span>lab</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#flexbox">Flexbox</a>
+            <a href="#grid">CSS Grid</a>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="intro">
+            <p class="eyebrow">CSS LAYOUT PRACTICE</p>
+            <h1>Two tools.<br><span>Endless arrangements.</span></h1>
+            <p>A small responsive demo showing where Flexbox and CSS Grid can help organize a page.</p>
+        </section>
+        <section id="flexbox" class="demo-section">
+            <div class="section-title">
+                <span class="number">01</span>
+                <div><p class="eyebrow">ONE DIMENSION</p><h2>Flexbox</h2></div>
+            </div>
+            <p class="section-description">This row uses Flexbox to distribute the cards and let them wrap when space is limited.</p>
+            <div class="flex-demo">
+                <article class="demo-card"><span>A</span><h3>Align</h3><p>Center items along the cross axis.</p></article>
+                <article class="demo-card"><span>B</span><h3>Distribute</h3><p>Space content along one direction.</p></article>
+                <article class="demo-card"><span>C</span><h3>Wrap</h3><p>Move items onto a new line as needed.</p></article>
+            </div>
+        </section>
+        <section id="grid" class="demo-section">
+            <div class="section-title">
+                <span class="number">02</span>
+                <div><p class="eyebrow">TWO DIMENSIONS</p><h2>CSS Grid</h2></div>
+            </div>
+            <p class="section-description">This composition uses named grid areas for a feature tile and three supporting tiles.</p>
+            <div class="grid-demo">
+                <article class="grid-tile feature-tile"><span>01 / FEATURE</span><h3>Room to focus</h3><p>The large tile spans two rows on wider screens.</p></article>
+                <article class="grid-tile tile-two"><span>02</span><h3>Rows</h3></article>
+                <article class="grid-tile tile-three"><span>03</span><h3>Columns</h3></article>
+                <article class="grid-tile tile-four"><span>04</span><h3>Responsive gaps</h3></article>
+            </div>
+        </section>
+    </main>
+    <footer><p>Layout Lab · CSS Flexbox and Grid practice</p></footer>
+</body>
+</html>

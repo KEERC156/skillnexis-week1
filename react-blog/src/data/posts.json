@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "A calmer way to plan the week",
+    "category": "Lifestyle",
+    "author": "Mira Shah",
+    "description": "A simple weekly reset can make room for focused work and a little breathing space."
+  },
+  {
+    "id": 2,
+    "title": "What makes a useful interface?",
+    "category": "Design",
+    "author": "Alex Morgan",
+    "description": "Clear labels, thoughtful spacing, and helpful feedback make everyday screens easier to use."
+  },
+  {
+    "id": 3,
+    "title": "Small steps into modern JavaScript",
+    "category": "Technology",
+    "author": "Noah Kim",
+    "description": "Practice arrays, functions, and events by building tiny projects that solve real problems."
+  },
+  {
+    "id": 4,
+    "title": "A desk setup for better focus",
+    "category": "Lifestyle",
+    "author": "Mira Shah",
+    "description": "A few practical changes to your workspace can help make study sessions more comfortable."
+  },
+  {
+    "id": 5,
+    "title": "Designing with a mobile-first mindset",
+    "category": "Design",
+    "author": "Jamie Lee",
+    "description": "Starting with a small screen encourages simple layouts that scale cleanly to larger displays."
+  },
+  {
+    "id": 6,
+    "title": "How the web browser finds a page",
+    "category": "Technology",
+    "author": "Alex Morgan",
+    "description": "A beginner-friendly overview of what happens between entering an address and seeing a website."
+  }
+]

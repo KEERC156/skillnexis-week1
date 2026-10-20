@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Keerthi C, a Computer Science Engineering student.">
+    <meta name="theme-color" content="#101a2c">
+    <title>Keerthi C | Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <a class="brand" href="#home" aria-label="Keerthi C home">KC<span>.</span></a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="menu-icon" aria-hidden="true"></span>
+            </button>
+            <nav id="primary-navigation" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-copy">
+                <p class="eyebrow">PERSONAL PORTFOLIO</p>
+                <h1>Keerthi C</h1>
+                <p class="hero-role">Computer Science Engineering Student</p>
+                <p class="hero-summary">Interested in web development, programming, and building useful projects.</p>
+                <a class="button-link" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
+            </div>
+            <div class="hero-mark" aria-hidden="true"><span>KC</span><i></i></div>
+        </section>
+
+        <section id="about" class="section content-section">
+            <p class="eyebrow">A LITTLE ABOUT ME</p>
+            <h2>About</h2>
+            <p class="section-intro">
+                I am a Computer Science Engineering student interested in web development,
+                programming, and building useful projects. I enjoy learning new technologies
+                and solving problems.
+            </p>
+        </section>
+
+        <section id="education" class="section content-section">
+            <p class="eyebrow">MY BACKGROUND</p>
+            <h2>Education</h2>
+            <article class="card">
+                <span class="project-number">01</span>
+                <div>
+                    <h3>Bachelor of Engineering</h3>
+                    <p>Computer Science Engineering</p>
+                    <p>BIET, Davangere, Karnataka</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="projects" class="section content-section">
+            <p class="eyebrow">IDEAS & PRACTICE</p>
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="card">
+                    <span class="project-number">01</span>
+                    <h3>Smart Kirana</h3>
+                    <p>
+                        A project concept for helping local shops manage orders through
+                        voice input and local languages.
+                    </p>
+                </article>
+                <article class="card">
+                    <span class="project-number">02</span>
+                    <h3>Government Scheme Eligibility Assistant</h3>
+                    <p>
+                        A web application concept that helps users explore government
+                        schemes based on their profile.
+                    </p>
+                </article>
+                <article class="card">
+                    <span class="project-number">03</span>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A responsive website showcasing education, project ideas, and skills.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section content-section">
+            <p class="eyebrow">TOOLS I AM LEARNING</p>
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>C Programming</span>
+                <span>React Basics</span>
+            </div>
+        </section>
+
+        <section id="contact" class="section content-section contact-section">
+            <div>
+                <p class="eyebrow">SAY HELLO</p>
+                <h2>Contact</h2>
+                <p class="section-intro">Use this form to check your message details. It is a front-end validation demo and does not send or store messages.</p>
+            </div>
+            <form id="contactForm" novalidate>
+                <label for="name">Your name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    autocomplete="name"
+                    aria-describedby="formMessage"
+                >
+
+                <label for="email">Your email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    autocomplete="email"
+                    aria-describedby="formMessage"
+                >
+
+                <label for="message">Your message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message"
+                    aria-describedby="formMessage"
+                ></textarea>
+
+                <button class="button-link" type="submit">Validate message <span aria-hidden="true">→</span></button>
+                <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="currentYear">2026</span> Keerthi C <span aria-hidden="true">·</span> Personal Portfolio</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

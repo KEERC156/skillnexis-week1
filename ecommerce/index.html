@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A responsive sample storefront with a front-end demo cart.">
+    <title>Everyday Goods | Store Demo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="#home">everyday<span>.</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#products">Shop</a>
+            <a href="#about">About</a>
+            <a class="cart-link" href="#products" aria-label="Demo cart, 0 items">
+                Bag <span id="cartCount" aria-live="polite">0</span>
+            </a>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="hero">
+            <p class="eyebrow">A SMALL STOREFRONT DEMO</p>
+            <h1>Useful things.<br><span>Thoughtfully chosen.</span></h1>
+            <p>Everyday objects for your desk, your home, and the little routines in between.</p>
+            <a class="button button-dark" href="#products">Browse the collection <span aria-hidden="true">↓</span></a>
+            <div class="hero-shape" aria-hidden="true"><span>01</span></div>
+        </section>
+
+        <section id="products" class="products-section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE COLLECTION</p>
+                    <h2>Small things, good design.</h2>
+                </div>
+                <p>Sample products for this front-end exercise.</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-art art-notebook" aria-hidden="true"><span>NOTES</span></div>
+                    <div class="product-info">
+                        <div><h3>Everyday Notebook</h3><p>Soft-cover · 160 pages</p></div>
+                        <span class="price">$12</span>
+                    </div>
+                    <button class="button add-button" type="button" data-product="Everyday Notebook">Add to demo bag</button>
+                </article>
+                <article class="product-card">
+                    <div class="product-art art-mug" aria-hidden="true"><span></span></div>
+                    <div class="product-info">
+                        <div><h3>Morning Mug</h3><p>Ceramic · 350 ml</p></div>
+                        <span class="price">$18</span>
+                    </div>
+                    <button class="button add-button" type="button" data-product="Morning Mug">Add to demo bag</button>
+                </article>
+                <article class="product-card">
+                    <div class="product-art art-tote" aria-hidden="true"><span>GOOD<br>THINGS</span></div>
+                    <div class="product-info">
+                        <div><h3>Market Tote</h3><p>Reusable · Natural cotton</p></div>
+                        <span class="price">$16</span>
+                    </div>
+                    <button class="button add-button" type="button" data-product="Market Tote">Add to demo bag</button>
+                </article>
+            </div>
+            <div class="cart-status" aria-live="polite">
+                <p id="cartMessage">Your demo bag is empty.</p>
+                <button id="clearCart" type="button">Clear demo bag</button>
+            </div>
+            <p class="demo-note">Demo only: the cart counter runs in your browser. There is no checkout or payment processing.</p>
+        </section>
+        <section id="about" class="about-section">
+            <p class="eyebrow">ABOUT THIS EXERCISE</p>
+            <h2>A storefront interaction, without the checkout.</h2>
+            <p>This sample landing page demonstrates responsive navigation, product cards, and a working demo cart counter.</p>
+        </section>
+    </main>
+    <footer><p>Everyday Goods · Sample storefront exercise</p></footer>
+</body>
+</html>
